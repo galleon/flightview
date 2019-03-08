@@ -1,14 +1,10 @@
 /* global window */
-// import { TripsLayer } from '../components/index'; 
-// import { ScenegraphLayer, MeshLayer } from '@deck.gl/mesh-layers';
-// import { GLTFParser } from '@loaders.gl/gltf';
-// import { CylinderGeometry } from '@luma.gl/core';
-// import { GLTFParser } from 'loaders.gl/gltf';
+import { TripsLayer } from '../components/index'; 
+import { ScenegraphLayer, MeshLayer } from '@deck.gl/mesh-layers';
+import { CylinderGeometry } from '@luma.gl/core';
 
 // import { ScenegraphLayer } from '../components/index';
-import { MeshLayer } from '@deck.gl/experimental-layers';
 
-import { CylinderGeometry } from 'luma.gl';
 // import { GLTFParser } from '@loaders.gl/gltf';
 
 import * as dataSamples from '../data-samples';

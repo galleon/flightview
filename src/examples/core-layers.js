@@ -1,20 +1,18 @@
-// import {
-//   COORDINATE_SYSTEM
-// } from '@deck.gl/core';
+import {
+  COORDINATE_SYSTEM
+} from '@deck.gl/core';
 
-// import {
-//   ScatterplotLayer
-// } from '@deck.gl/layers';
+import {
+  ScatterplotLayer
+} from '@deck.gl/layers';
 
-// import {
-//   ScreenGridLayer,
-//   GridLayer,
-//   HexagonLayer,
-//   ContourLayer,
-//   _GPUGridLayer
-// } from '@deck.gl/aggregation-layers';
-
-import { COORDINATE_SYSTEM, ScatterplotLayer } from 'deck.gl';
+import {
+  ScreenGridLayer,
+  GridLayer,
+  HexagonLayer,
+  ContourLayer,
+  _GPUGridLayer
+} from '@deck.gl/aggregation-layers';
 
 // Demonstrate immutable support
 import * as dataSamples from '../data-samples';

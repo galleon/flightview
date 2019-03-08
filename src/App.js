@@ -2,21 +2,16 @@ import React, { PureComponent } from 'react';
 
 // Imports from the charts library
 import { StaticMap } from 'react-map-gl';
-// import DeckGL from '@deck.gl/react';
-// import { COORDINATE_SYSTEM, FirstPersonView, MapController, MapView, View } from '@deck.gl/core';
-// import { LineLayer, PolygonLayer, PathLayer } from '@deck.gl/layers';
-// import { MeshLayer } from '@deck.gl/mesh-layers';
-// import { TripsLayer } from './components/index';
+import DeckGL from '@deck.gl/react';
+import { COORDINATE_SYSTEM, FirstPersonView, MapController, MapView, View } from '@deck.gl/core';
+import { LineLayer, PolygonLayer, PathLayer } from '@deck.gl/layers';
+import { MeshLayer } from '@deck.gl/mesh-layers';
+import { TripsLayer } from './components/index';
 
 // import { CubeGeometry, Geometry } from '@luma.gl/core'
 // import { GLBLoader } from '@loaders.gl/gltf';
 
-import DeckGL, { COORDINATE_SYSTEM, FirstPersonView, MapController, MapView, View } from 'deck.gl';
-import { LineLayer, PolygonLayer, PathLayer } from 'deck.gl';
-import { MeshLayer } from '@deck.gl/experimental-layers';
-import { TripsLayer } from './components/index';
-
-import { CubeGeometry, Geometry } from 'luma.gl'
+import { CubeGeometry, Geometry } from '@luma.gl/core'
 // import { GLBLoader } from 'loaders.gl/gltf';
 
 import { Matrix4 } from 'math.gl';
